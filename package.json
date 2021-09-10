@@ -1,0 +1,22 @@
+{
+  "name": "test-apollo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "core-js": "^3.15.1",
+    "graphql-tag": "^2.12.5",
+    "i18n": "^0.13.3",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "postcss": "^8.3.5"
+  }
+}
