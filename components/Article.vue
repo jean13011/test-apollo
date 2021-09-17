@@ -15,7 +15,7 @@
 <!--      balise nuxt equivalent du a href-->
       <NuxtLink
         :to="`/character/${ character.id }`"
-        class="border rounded px-2 py-1 text-gray-800 border-gray-800 text-sm mt-2"
+        class="border rounded px-2 py-1 text-gray-800 bg-green-500 text-sm hover:text-white hover:transition delay-150 duration-300 ease-in-out"
       >
         Lire plus
       </NuxtLink>
