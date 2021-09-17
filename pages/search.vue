@@ -6,9 +6,8 @@
 
     <div class="flex items-stretch">
       <div class="py-12 px-20">
-        <form
-          @submit.prevent="search"
-        >
+
+        <form @submit.prevent="search">
 
           <input
             type="text"
@@ -27,7 +26,7 @@
           </button>
         </form>
 
-        <div v-if="loading">Chargements...</div>
+        <div v-if="loading">Chargement...</div>
 
         <div v-if="searchResults" class="mb-8">
           <div v-if="searchResults.length">

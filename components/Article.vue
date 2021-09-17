@@ -46,6 +46,11 @@ const ALL_CHARACTERS_QUERY = gql`
 
 export default {
   name: "Article",
+  data() {
+    return {
+      results: []
+    }
+  },
   apollo: {
 
     //envoie de la constante ALL_CHARACTERS_QUERY qui est notre requete que nous foutons dans une variable characters pour un foreach

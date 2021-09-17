@@ -58,6 +58,7 @@
 
   export default {
     components: {Navbar},
+
     //Ici, nous utilisons la méthode asyncData de Nuxt pour récupérer des données avec notre client Apollo préconfiguré. En déstructurant le paramètre ID de l'URL, nous pouvons le transmettre à la requête GraphQL dans l'objet "variables".
     //asyncData est seulement disponible pour les pages et nous n'avons donc pas accès à this à l'intérieur du hook.
     async asyncData({params, app}){
