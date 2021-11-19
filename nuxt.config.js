@@ -41,7 +41,8 @@ export default {
   apollo: {
     clientConfigs: {
       default: {
-        httpEndpoint: 'https://rickandmortyapi.com/graphql',
+        //httpEndpoint: 'https://rickandmortyapi.com/graphql',
+        httpEndpoint: 'http://host.docker.internal:8080/v1/graphql',
       },
     },
   },

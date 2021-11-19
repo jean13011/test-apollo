@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <div class="p-8">
-      <h1 class="font-bold text-2xl mb-8">Les personnages de Rick & Morty</h1>
+      <h1 class="font-bold text-2xl mb-8">Annonce JT</h1>
       <div>
         <Article/>
       </div>
