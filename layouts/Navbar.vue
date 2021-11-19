@@ -17,15 +17,9 @@
       </button>
     </div>
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-      <div
-        class="text-sm lg:flex-grow"
-      >
+      <div class="text-sm lg:flex-grow">
         <NuxtLink to="/" class="block mt-4 lg:inline-block text-white lg:mt-0 text-teal-200 hover:text-green-300 mr-4 hover:transition delay-150 duration-300 ease-in-out">
           Accueil
-        </NuxtLink>
-
-        <NuxtLink to="/search" class="block mt-4 lg:inline-block text-white lg:mt-0 text-teal-200 hover:text-white mr-4 hover:text-green-300 mr-4 hover:transition delay-150 duration-300 ease-in-out">
-          Recherche de personnages
         </NuxtLink>
       </div>
 
